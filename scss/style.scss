@@ -108,7 +108,7 @@
 
 .section2 {
     background-color: #f8f8fe;
-    height: 90vh;
+    height: 110vh;
 
     .section-content {
         width: 90%;
@@ -290,8 +290,11 @@
         }
     }
 }
-
-
+@media (min-width:800px){
+    .section2{
+        max-height: 100vh;
+    }
+}
 @media (min-width:360px) and (max-width:640px){
     .navbar-container{
         display: flex;
@@ -329,7 +332,7 @@
         }
     }
     .section2{
-        height: 144vh;
+        height: 130vh;
 
     
      .section-content{

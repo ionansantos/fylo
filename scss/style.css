@@ -114,7 +114,7 @@
 
 .section2 {
   background-color: #f8f8fe;
-  height: 90vh;
+  height: 110vh;
 }
 
 .section2 .section-content {
@@ -329,6 +329,12 @@
   border: 1px solid var(--button-primary-white);
 }
 
+@media (min-width: 800px) {
+  .section2 {
+    max-height: 100vh;
+  }
+}
+
 @media (min-width: 360px) and (max-width: 640px) {
   .navbar-container {
     display: -webkit-box;
@@ -364,7 +370,7 @@
     margin: 1rem 0;
   }
   .section2 {
-    height: 144vh;
+    height: 130vh;
   }
   .section2 .section-content {
     display: block;
